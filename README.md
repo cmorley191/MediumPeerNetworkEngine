@@ -9,7 +9,6 @@ facilitates reacting to data received from other peers.
 The project's current framework support is only minimal UDP.
 `MPNESocket` and its inner extension, `SocketPeerConnection`,
 implement the above interfaces into Java's Datagram I/O.
-`MPNEClient` demonstrates basic use of MPNE UDP.
 
 Planned future development includes connection verification (creating
 more security in the insecure UDP framework), peer groups, and more.
