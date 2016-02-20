@@ -124,6 +124,17 @@ public final class MPNESocket {
 	}
 
 	/**
+	 * Returns the port number on the local host to which this socket is bound.
+	 * 
+	 * @return the port number on the local host to which this socket is bound,
+	 *         -1 if the socket is closed
+	 * @see java.net.DatagramSocket#getLocalPort()
+	 */
+	public int getPort() {
+		return socket.getLocalPort();
+	}
+
+	/**
 	 * Closes the socket. Causes any current and further receiving or sending
 	 * attempts over the socket to throw an exception. This {@code MPNESocket's}
 	 * inner threads are shut down.
