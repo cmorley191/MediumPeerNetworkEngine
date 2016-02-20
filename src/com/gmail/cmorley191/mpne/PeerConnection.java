@@ -32,7 +32,6 @@ public interface PeerConnection {
 	 *            the listener to add to this peer
 	 */
 	public void addConnectionListener(ConnectionListener l);
-	
 
 	/**
 	 * Removes this data receiving listener from this peer.
